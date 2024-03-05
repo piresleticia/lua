@@ -2,7 +2,38 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="lua.MainPage">
-
  
-       
+
+<Grid>
+
+ <Image Source="imagemlua2.jpg"
+   Aspect="AspectFill"/>
+     
+     <Label Text="Uma Viagem para a Lua"
+     TextColor="White"
+     Margin="25"
+     FontSize="40"
+     HorizontalOptions="Center"
+     HorizontalTextAlignment="Center"
+     FontFamily="FRUITBANANA.otf"/>
+           
+           <VerticalStackLayout
+           BackgroundColor="Black"
+        VerticalOptions="End"
+        Spacing="10"
+        Margin="15,0,15,40"/>
+
+         <Button Text="Jogar"
+              HeightRequest="40"
+              CornerRadius="25"
+              BackgroundColor="gray"
+              TextColor="White"
+              Margin="0, 150,0,0"
+      
+              FontSize="15"/>
+
+     
+        
+        </Grid>
+
 </ContentPage>
