@@ -47,12 +47,39 @@
     
 
 
+<Frame x:Name="frameSobre"
+       IsVisible="false">
+       <Grid>
+<Grid.RowDefinitions>
+  <RowDefinition Height="50"/>
+  <RowDefinition Height="*"/>
+   <RowDefinition Height="50"/>
+  </Grid.RowDefinitions>
+  
+<Label Text=" SOBRE"
+Grid.Row="0"
+HorizontalOptions="Center"/>
 
 
+<Label Text="Seja bem vindo!Este aplicativo foi criado por Letícia Ferreira Pires do 3 ano B, com o objetivo de uma viagem espacial para a lua"
+Grid.Row="1"
+TextColor="Black"
+HorizontalTextAlignment="Center"
+VerticalOptions="Center"/>
 
 
-     
-        
-        </Grid>
+    <Button Text="Voltar"
+      Clicked="Voltarsobre"
+      HeightRequest="50"
+      CornerRadius="25"
+       BackgroundColor="Gray"
+         TextColor="White"
+         Margin="0,0, 0,10 "
+         FontSize="15"
+         FontFamily="FRUITBANANA.otf"
+        Grid.Row="2"/>
 
+</Grid>
+</Frame>
+</Grid>
 </ContentPage>

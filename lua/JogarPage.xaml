@@ -8,9 +8,30 @@
 
  <Image Source="botaojogar.jpg"
    Aspect="AspectFill"/>
-     </Grid>
+   
+  
+
+  
+    <Label Text="Olá você está embarcando numa viagem espacial para a lua, está preparado para esta aventura?"
+     TextColor="Black"
+     Margin="25"
+     FontSize="20"
+     HorizontalOptions="Center"
+     FontFamily="OpenSans-Regular.ttf"/> 
 
 
+  <Button Text="Continuar"
+           BorderColor="White"
+           BorderWidth="1"
+            HeightRequest="40"
+            CornerRadius="25"
+            BackgroundColor="Gray"
+            TextColor="White"
+            Margin="0, 200,0,0" 
+            FontSize="15"/>  
 
 
+ 
+
+ </Grid>
 </ContentPage>

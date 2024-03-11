@@ -8,16 +8,21 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();		
 	}
-
-	void Parajogar(object sender, EventArgs args) 
+ 
+  private void Parajogar(object sender, EventArgs args) 
 	{
 	  Application.Current.MainPage = new JogarPage();
 	  
 	}
 
-	void Parasobre(object sender, EventArgs args) 
+	 private void Parasobre(object sender, EventArgs args) 
 	{
-		
+		frameSobre.IsVisible = true;
+	}
+
+	 private void Voltarsobre(object sender, EventArgs args) 
+	{
+		frameSobre.IsVisible = false;
 	}
 }
 
