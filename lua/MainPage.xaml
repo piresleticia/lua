@@ -48,24 +48,31 @@
 
 
 <Frame x:Name="frameSobre"
-       IsVisible="false">
-       <Grid>
-<Grid.RowDefinitions>
-  <RowDefinition Height="50"/>
-  <RowDefinition Height="*"/>
-   <RowDefinition Height="50"/>
-  </Grid.RowDefinitions>
-  
-<Label Text=" SOBRE"
-Grid.Row="0"
-HorizontalOptions="Center"/>
+       IsVisible="false"
+      Margin="10,20"
+      CornerRadius="20"
+      BackgroundColor="white"
+      HorizontalOptions="Fill"
+      VerticalOptions="Fill">
+       <Grid> 
+
+      <Grid.RowDefinitions>
+       <RowDefinition Height="50"/>
+       <RowDefinition Height="*"/>
+      <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+       
+      <Label Text=" SOBRE"
+       Grid.Row="0"
+       HorizontalOptions="Center"/>
 
 
-<Label Text="Seja bem vindo!Este aplicativo foi criado por Letícia Ferreira Pires do 3 ano B, com o objetivo de uma viagem espacial para a lua"
-Grid.Row="1"
-TextColor="Black"
-HorizontalTextAlignment="Center"
-VerticalOptions="Center"/>
+           <Label Text="Seja bem vindo!Este aplicativo foi criado por Letícia Ferreira Pires do 3 ano B, com o objetivo de uma viagem espacial para a lua. Tenha uma boa viagem!"
+           Grid.Row="1"
+            TextColor="Black"
+            FontSize="20"
+            HorizontalTextAlignment="Center"
+            VerticalOptions="Center"/>
 
 
     <Button Text="Voltar"
@@ -75,7 +82,7 @@ VerticalOptions="Center"/>
        BackgroundColor="Gray"
          TextColor="White"
          Margin="0,0, 0,10 "
-         FontSize="15"
+         FontSize="20"
          FontFamily="FRUITBANANA.otf"
         Grid.Row="2"/>
 
