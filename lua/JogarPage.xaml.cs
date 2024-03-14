@@ -9,7 +9,12 @@ public partial class JogarPage : ContentPage
 		InitializeComponent();
     }
 
- 
+ private void ParaContinuar(object sender, EventArgs args) 
+	{
+	  Application.Current.MainPage = new PaginadoisPage();
+	  
+	}
+
 
 
 }

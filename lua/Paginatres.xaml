@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="lua.JogarPage"
-             BackgroundColor="#373b42">
+             x:Class="lua.PaginatresPage"
+              BackgroundColor="#373b42">
+
+
+
+
 
 <Grid>
    <Grid.RowDefinitions>    
        <RowDefinition Height="200"/>
        <RowDefinition Height="*"/>
       <RowDefinition Height="50"/>
+        <RowDefinition Height="50"/>
    </Grid.RowDefinitions> 
 
 
 
-
-
-    <Label Text="Olá você está indo para uma viagem espacial. Está preparado?"
+    <Label Text="Parabéns você fez a escolha certa e ja está entrando no espaço, pronto para seu destino final?"
      TextColor="white"
      Margin="25"
-     FontSize="30"
+     FontSize="25"
      HorizontalOptions="Center"
      FontFamily="FRUITBANANA.otf"
      Grid.Row="0"
@@ -26,26 +29,58 @@
       VerticalOptions="Center"/> 
      
 
-     <Image Source="caminho.jpg"
+
+
+     <Image Source="acaminho.jpg"
    Aspect="AspectFill"
    Grid.Row="1"/>
 
-  <Button Text="Continuar"
+
+
+  <Button Text="Sim estou pronto."
            BorderColor="White"
-           Clicked="ParaContinuar"
+           
            BorderWidth="1"
             HeightRequest="50"
             CornerRadius="25"
             BackgroundColor="#373b42"
             TextColor="White"
             Margin="0,0,0,0" 
-            FontSize="20"
-            FontFamily="FRUITBANANA.otf"
+            FontSize="15"
+            FontFamily="CaviarDreams.ttf"
              Grid.Row="2"/>  
 
+<Button Text="Não preciso traçar a rota primeiro."
+           BorderColor="White"
+             Clicked="ParaGameover"
+           BorderWidth="1"
+            HeightRequest="50"
+            CornerRadius="25"
+            BackgroundColor="#373b42"
+            TextColor="White"
+            Margin="0,0,0,0" 
+            FontSize="15"
+            FontFamily="CaviarDreams.ttf"
+             Grid.Row="3"/>  
 
  
 
  </Grid>
 
 </ContentPage>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

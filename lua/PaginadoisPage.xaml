@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="lua.JogarPage"
-             BackgroundColor="#373b42">
+             x:Class="lua.PaginadoisPage"
+              BackgroundColor="#373b42">
+
 
 <Grid>
    <Grid.RowDefinitions>    
        <RowDefinition Height="200"/>
        <RowDefinition Height="*"/>
       <RowDefinition Height="50"/>
+        <RowDefinition Height="50"/>
    </Grid.RowDefinitions> 
 
 
 
-
-
-    <Label Text="Olá você está indo para uma viagem espacial. Está preparado?"
+    <Label Text="Você precisará levar suprimentos, quais serão suas escolhas?"
      TextColor="white"
      Margin="25"
-     FontSize="30"
+     FontSize="25"
      HorizontalOptions="Center"
      FontFamily="FRUITBANANA.otf"
      Grid.Row="0"
@@ -26,26 +26,45 @@
       VerticalOptions="Center"/> 
      
 
-     <Image Source="caminho.jpg"
+
+
+     <Image Source="dentrodofoguete.jpg"
    Aspect="AspectFill"
    Grid.Row="1"/>
 
-  <Button Text="Continuar"
+
+
+  <Button Text="comida, água, oxigênio extra, trage espacial"
            BorderColor="White"
-           Clicked="ParaContinuar"
+            Clicked="ParaproximaFase"
            BorderWidth="1"
             HeightRequest="50"
             CornerRadius="25"
             BackgroundColor="#373b42"
             TextColor="White"
             Margin="0,0,0,0" 
-            FontSize="20"
-            FontFamily="FRUITBANANA.otf"
+            FontSize="15"
+            FontFamily="CaviarDreams.ttf"
              Grid.Row="2"/>  
 
+<Button Text="Apenas o que estiver dentro do foguete."
+           BorderColor="White"
+           BorderWidth="1"
+            HeightRequest="50"
+            CornerRadius="25"
+            BackgroundColor="#373b42"
+            TextColor="White"
+            Margin="0,0,0,0" 
+            FontSize="15"
+            FontFamily="CaviarDreams.ttf"
+             Grid.Row="3"/>  
 
  
 
  </Grid>
 
 </ContentPage>
+
+
+
+

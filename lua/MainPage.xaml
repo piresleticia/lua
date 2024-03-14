@@ -27,22 +27,22 @@
            Clicked="Parajogar"
            BorderColor="White"
            BorderWidth="1"
-            HeightRequest="40"
+            HeightRequest="50"
             CornerRadius="25"
-            BackgroundColor="Gray"
+            BackgroundColor="#373b42"
             TextColor="White"
             Margin="0, 200,0,0" 
             FontSize="15"/>  
 
          <Button Text="Sobre"
          Clicked="Parasobre"
-         HeightRequest="40"
+         HeightRequest="50"
          CornerRadius="25"
-         BackgroundColor="Gray"
+         BackgroundColor="#373b42"
          TextColor="White"
           BorderColor="White"
           BorderWidth="1"
-         Margin="0, 300, 0,0"
+         Margin="0,300, 0,0"
          FontSize="15"/>
     
 
