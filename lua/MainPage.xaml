@@ -31,7 +31,7 @@
             CornerRadius="25"
             BackgroundColor="#373b42"
             TextColor="White"
-            Margin="0, 200,0,0" 
+            Margin="2, 200,2,0" 
             FontSize="15"/>  
 
          <Button Text="Sobre"
@@ -42,7 +42,7 @@
          TextColor="White"
           BorderColor="White"
           BorderWidth="1"
-         Margin="0,300, 0,0"
+         Margin="2,350, 0,2"
          FontSize="15"/>
     
 
@@ -51,7 +51,7 @@
        IsVisible="false"
       Margin="10,20"
       CornerRadius="20"
-      BackgroundColor="white"
+      BackgroundColor="#373b42"
       HorizontalOptions="Fill"
       VerticalOptions="Fill">
        <Grid> 
@@ -64,12 +64,15 @@
        
       <Label Text=" SOBRE"
        Grid.Row="0"
+       TextColor="White"
+         FontSize="30"
+          FontFamily="FRUITBANANA.otf"
        HorizontalOptions="Center"/>
 
 
-           <Label Text="Seja bem vindo!Este aplicativo foi criado por Letícia Ferreira Pires do 3 ano B, com o objetivo de uma viagem espacial para a lua. Tenha uma boa viagem!"
+           <Label Text="Seja bem vindo!Este aplicativo foi criado por Letícia Ferreira Pires do 3 ano B do Colégio Sesi da Indústria na unidade de Apucarana com a orientação do professor Thiago Macedo, com o objetivo de uma viagem espacial para a lua. Tenha uma boa viagem!"
            Grid.Row="1"
-            TextColor="Black"
+            TextColor="white"
             FontSize="20"
             HorizontalTextAlignment="Center"
             VerticalOptions="Center"/>
@@ -79,7 +82,7 @@
       Clicked="Voltarsobre"
       HeightRequest="50"
       CornerRadius="25"
-       BackgroundColor="Gray"
+       BackgroundColor="gray"
          TextColor="White"
          Margin="0,0, 0,10 "
          FontSize="20"

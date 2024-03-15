@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="lua.ameoverPage"
+             x:Class="lua.GameoverPage"
              BackgroundColor="#373b42">
 
+<Grid>
+ 
+ <Grid.RowDefinitions>
+       <RowDefinition Height="50"/>
+       <RowDefinition Height="*"/>
+      <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
 
 
 
 
+<Label Text=" GAME OVER"
+       Grid.Row="0"
+        TextColor="white"
+       HorizontalOptions="Center"
+       FontFamily="FRUITBANANA.otf"
+       FontSize="40" />
 
+
+           <Label Text="Infelizmente você fez a escolha errada e chegou ao fim do jogo. Clique em voltar para começar novamente! "
+           Grid.Row="1"
+            TextColor="white"
+            FontSize="30"
+            HorizontalTextAlignment="Center"
+             FontFamily="CaviarDreams.ttf"
+            VerticalOptions="Center"/>
+
+
+  <Button Text="Voltar"
+      Clicked="Voltarinicio"
+      HeightRequest="50"
+      CornerRadius="25"
+       BackgroundColor="Gray"
+         TextColor="White"
+         Margin="0,0, 0,10 "
+         FontSize="20"
+         FontFamily="FRUITBANANA.otf"
+        Grid.Row="2"/>
+
+
+
+
+ </Grid>
 
 </ContentPage>
+
+
+
+

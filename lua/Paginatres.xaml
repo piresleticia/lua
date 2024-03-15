@@ -39,7 +39,7 @@
 
   <Button Text="Sim estou pronto."
            BorderColor="White"
-           
+           Clicked="Parafinal"
            BorderWidth="1"
             HeightRequest="50"
             CornerRadius="25"

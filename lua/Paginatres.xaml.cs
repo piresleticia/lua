@@ -16,5 +16,9 @@ private void ParaGameover(object sender, EventArgs args)
 	  
 	}
 
-
+private void Parafinal(object sender, EventArgs args) 
+	{
+	  Application.Current.MainPage = new PaginafinalPage();
+	  
+	}
 }

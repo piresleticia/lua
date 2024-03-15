@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="lua.PaginadoisPage"
+             x:Class="lua.PaginafinalPage"
               BackgroundColor="#373b42">
-
-
-<Grid>
+              
+              
+              
+              <Grid>
    <Grid.RowDefinitions>    
        <RowDefinition Height="200"/>
        <RowDefinition Height="*"/>
       <RowDefinition Height="50"/>
-        <RowDefinition Height="50"/>
    </Grid.RowDefinitions> 
 
 
 
-    <Label Text="Você precisará levar suprimentos, quais serão suas escolhas?"
+    <Label Text="Parabéns você chegou ao seu destino final. Está na lua e completou sua missão espacial!"
      TextColor="white"
      Margin="25"
      FontSize="25"
@@ -28,15 +28,15 @@
 
 
 
-     <Image Source="dentrodofoguete.jpg"
+     <Image Source="imgfinal.jpg"
    Aspect="AspectFill"
    Grid.Row="1"/>
 
 
 
-  <Button Text="comida, água, oxigênio extra, trage espacial"
+  <Button Text="Voltar"
            BorderColor="White"
-            Clicked="ParaproximaFase"
+            Clicked="ParaComeco"
            BorderWidth="1"
             HeightRequest="50"
             CornerRadius="25"
@@ -47,25 +47,14 @@
             FontFamily="CaviarDreams.ttf"
              Grid.Row="2"/>  
 
-<Button Text="Apenas o que estiver dentro do foguete."
-           Clicked="ParaGameover"
-           BorderColor="White"
-           BorderWidth="1"
-            HeightRequest="50"
-            CornerRadius="25"
-            BackgroundColor="#373b42"
-            TextColor="White"
-            Margin="0,0,0,0" 
-            FontSize="15"
-            FontFamily="CaviarDreams.ttf"
-             Grid.Row="3"/>  
 
  
 
  </Grid>
-
-</ContentPage>
-
-
-
+              
+              
+              
+              
+              
+              </ContentPage>
 
